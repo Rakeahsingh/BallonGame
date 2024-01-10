@@ -70,7 +70,9 @@ fun BalloonGameScreen() {
         }
 
         BalloonGame(
+
             enabled = isTimerRunning
+
         ){
             points++
         }
